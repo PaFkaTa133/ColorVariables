@@ -19,6 +19,9 @@ html {
   background: $background;
 }
 
+p{
+  color: $text-color;
+}
 .main {
   height: 100vh;
   display: flex;
@@ -27,5 +30,4 @@ html {
   font-size: 10rem;
   flex-flow: column;
   background-color: $body-color;
-  color: $text-color;
 }
